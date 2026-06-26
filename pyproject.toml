@@ -1,0 +1,20 @@
+[project]
+name = "ai-data-pipeline"
+version = "0.1.0"
+description = "Chinese AI training data cleaning, scoring, and export pipeline."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+advanced = [
+  "pandas>=2.0.0",
+  "numpy>=1.26.0",
+  "sentence-transformers>=3.0.0",
+  "streamlit>=1.30.0"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+

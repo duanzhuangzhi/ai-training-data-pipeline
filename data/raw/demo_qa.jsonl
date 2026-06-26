@@ -1,0 +1,10 @@
+{"id":"demo-001","source":"demo","question":"如何学习 Python 数据清洗？","answer":"可以先掌握 pandas 的 DataFrame 操作，再学习缺失值处理、重复值处理、字段标准化和异常值检测。做项目时要把规则写成可复用函数，并输出清洗前后的统计报告。","metadata":{"topic":"data"}}
+{"id":"demo-002","source":"demo","question":"AI 训练数据为什么要做去重？","answer":"重复样本会让模型过度记忆部分表达，降低泛化能力，也会影响评估集的可信度。常见做法包括精确去重、相似文本去重和人工抽检。","metadata":{"topic":"ai"}}
+{"id":"demo-003","source":"demo","question":"爬虫项目要注意什么？","answer":"要遵守 robots 协议和网站使用条款，控制请求频率，设置异常重试和日志记录。采集后还要保存来源、时间和字段结构，方便追溯数据质量。","metadata":{"topic":"tech"}}
+{"id":"demo-004","source":"demo","question":"数据质量报告应该包含哪些指标？","answer":"建议包含原始样本数、清洗后样本数、重复率、缺失率、过滤原因、类别分布、长度分布和高低质量样本比例。","metadata":{"topic":"data"}}
+{"id":"demo-005","source":"demo","question":"怎么把数据处理流程做成系统？","answer":"可以把流程拆成导入、清洗、去重、评分、分类、导出和报告模块，每个模块保留输入输出文件，并使用日志记录处理过程。","metadata":{"topic":"data"}}
+{"id":"demo-006","source":"demo","question":"免费领取资料加微信是真的吗？","answer":"免费领取资料，加微信 123456，限时优惠，点击链接马上领取。","metadata":{"topic":"spam"}}
+{"id":"demo-007","source":"demo","question":"如何准备 AI 数据工程岗位面试？","answer":"可以准备一个能跑通的项目，重点说明数据来源、清洗规则、质量控制、自动化脚本、异常处理和最终导出的训练集格式。","metadata":{"topic":"career"}}
+{"id":"demo-008","source":"demo","question":"如何学习 Python 数据清洗？","answer":"可以先掌握 pandas 的 DataFrame 操作，再学习缺失值处理、重复值处理、字段标准化和异常值检测。做项目时要把规则写成可复用函数，并输出清洗前后的统计报告。","metadata":{"topic":"duplicate"}}
+{"id":"demo-009","source":"demo","question":"什么是 instruction 数据集？","answer":"instruction 数据集通常由指令、输入和输出组成，用来训练模型按照用户要求完成任务。问答数据经过整理后可以转换成 instruction 格式。","metadata":{"topic":"ai"}}
+{"id":"demo-010","source":"demo","question":"日志在数据 pipeline 中有什么作用？","answer":"日志可以记录每一步处理数量、异常样本、耗时和输出路径。出现数据质量问题时，可以通过日志快速定位是哪一个环节出了问题。","metadata":{"topic":"tech"}}
